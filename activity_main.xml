@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ffff"
+
+    tools:context="com.example.johan.cabinclient.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <TextView
+            android:id="@+id/textNextStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next stop:"
+            android:textSize="33dp"
+            android:textColor="#ee2c2c"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="51dp"
+            android:layout_marginStart="51dp" />
+
+        <TextView
+            android:id="@+id/textArriveTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrive time:"
+            android:textSize="33dp"
+            android:textColor="#ee2c2c"
+            android:layout_below="@+id/textNextStop"
+            android:layout_alignLeft="@+id/textNextStop"
+            android:layout_alignStart="@+id/textNextStop" />
+
+        <TextView
+            android:id="@+id/textGetOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get off:"
+            android:textSize="33dp"
+            android:textColor="#eead0e"
+            android:layout_below="@+id/textArriveTime"
+            android:layout_alignLeft="@+id/textArriveTime"
+            android:layout_alignStart="@+id/textArriveTime" />
+
+        <TextView
+            android:id="@+id/textGetOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get on:"
+            android:textSize="33dp"
+            android:textColor="#eead0e"
+            android:layout_below="@+id/textGetOff"
+            android:layout_alignLeft="@+id/textGetOff"
+            android:layout_alignStart="@+id/textGetOff" />
+
+        <TextView
+            android:id="@+id/textCabin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cabin:3"
+            android:textSize="33dp"
+            android:textColor="#eead0e"
+            android:layout_below="@+id/textGetOn"
+            android:layout_alignLeft="@+id/textGetOn"
+            android:layout_alignStart="@+id/textGetOn" />
+
+        <TextView
+            android:id="@+id/textTrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Train:"
+            android:textSize="33dp"
+            android:textColor="#303030"
+            android:layout_below="@+id/textCabin"
+            android:layout_alignLeft="@+id/textCabin"
+            android:layout_alignStart="@+id/textCabin" />
+
+        <TextView
+            android:id="@+id/textTerminal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminal:"
+            android:textSize="33dp"
+            android:textColor="#303030"
+            android:layout_below="@+id/textTrain"
+            android:layout_alignLeft="@+id/textTrain"
+            android:layout_alignStart="@+id/textTrain" />
+
+        <TextView
+            android:id="@+id/textTerminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminus:"
+            android:textSize="33dp"
+            android:textColor="#303030"
+            android:layout_below="@+id/textTerminal"
+            android:layout_alignLeft="@+id/textTerminal"
+            android:layout_alignStart="@+id/textTerminal" />
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textTerminus"
+            android:layout_alignStart="@+id/textTerminus"
+            android:layout_below="@+id/textTerminus"
+            android:text="Current time:"
+            android:textColor="#ee2c2c"
+            android:textSize="33dp" />
+
+        <TextView
+            android:id="@+id/textTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report phone:010-6561111   Welcome to Uganda"
+            android:textColor="#303030"
+            android:layout_below="@+id/textTime"
+            android:layout_alignLeft="@+id/textTime"
+            android:layout_alignStart="@+id/textTime" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
